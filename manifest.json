@@ -1,14 +1,13 @@
 {
   "manifest_version": 2,
   "name": "Anime AutoPlay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pasa automáticamente al siguiente episodio en AnimeAV1 y AnimeFLV. Incluye salto de intro y créditos configurable.",
   "homepage_url": "https://github.com/Pleniluni0/Anime-Autoplay-Android",
   "author": "Pleniluni0",
   "permissions": [
     "storage",
     "tabs",
-    "activeTab",
     "*://*.animeav1.com/*",
     "*://animeav1.com/*",
     "*://*.animeflv.net/*",
@@ -16,7 +15,8 @@
     "*://www4.animeflv.net/*",
     "*://www3.animeflv.net/*",
     "*://www2.animeflv.net/*",
-    "*://www.animeflv.net/*"
+    "*://www.animeflv.net/*",
+    "<all_urls>"
   ],
   "content_scripts": [
     {
@@ -61,14 +61,18 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "content_security_policy": "script-src 'self'; object-src 'self';",
   "browser_specific_settings": {
     "gecko": {
       "id": "anime-autoplay@indalmix.es",
-      "strict_min_version": "120.0"
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
     },
     "gecko_android": {
-      "strict_min_version": "120.0"
+      "strict_min_version": "142.0"
     }
   }
 }
