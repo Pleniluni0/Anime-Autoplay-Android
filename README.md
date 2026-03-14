@@ -1,7 +1,5 @@
-Descripción corta:
 Disfruta de tu anime sin interrupciones: reproducción automática, salto de intros y créditos en AnimeAV1 y AnimeFLV.
 
-Descripción completa:
 Anime AutoPlay es el compañero esencial para los amantes del anime que utilizan AnimeAV1 y AnimeFLV. Diseñada pensando en la comodidad y la fluidez, esta extensión elimina las tareas repetitivas para que puedas centrarte en lo que importa: la historia.
 
 Características principales:
